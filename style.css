@@ -1,0 +1,63 @@
+* {
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+body {
+  background: hsl(212, 45%, 89%);
+  height: 100vh;
+  width: 100%;
+}
+
+.whitecard {
+  background: white;
+  min-height: 70vh;
+  width: 25vw;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.whitecard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1.5rem;
+}
+
+h1 {
+  padding: 2rem 1.5rem;
+  font-size: 2rem;
+  word-spacing: 0.3rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .whitecard {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 40vh;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  p {
+    font-size: 1rem; /* Adjust the font size as needed */
+    padding: 0.5rem 1rem; /* Adjust the padding as needed */
+  }
+}/*# sourceMappingURL=style.css.map */
